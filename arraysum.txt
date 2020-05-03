@@ -1,0 +1,15 @@
+#!/bin/bash
+read 
+-p "Enter the array 20 elements" n
+
+sum=0
+
+for i in ${n[@]}
+
+do
+
+sum=`expr $sum + $i`
+
+done
+
+echo "The sum array elements is :"$sum 

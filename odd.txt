@@ -1,0 +1,16 @@
+#!/bin/bash
+
+i=1
+count =0
+echo " OPP NUMBER UPTO 20 LIMITS"
+echo "-------------------------"
+while [$i -1 t 100]
+do
+	echo $i
+	count = 'expo $ count+1'
+	if [$count -eq 20]
+	then
+		break
+	fi
+	i='expo $i+2'
+done

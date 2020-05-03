@@ -1,0 +1,46 @@
+#!/bin/bash
+
+echo "a","b","c","a" 
+
+echo "b"
+ 
+echo "c"
+
+echo "d"
+
+echo "e"
+
+echo "f"
+
+echo "g"
+
+echo "h"
+
+echo "i"
+
+echo "j"
+
+echo "k"
+
+echo "l"
+
+echo "m"
+
+echo "gb"
+
+echo ""
+
+echo "b"
+
+echo "b"
+
+echo "bg"
+
+echo "gd"
+
+echo "fdg"
+
+s="string"
+
+echo ${s//a/s}
+
